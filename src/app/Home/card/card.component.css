@@ -1,0 +1,55 @@
+.card{
+ background-color: rgb(69, 69, 174);
+ border: 3px solid black;
+}
+.card-body{
+text-align: center;
+border: 2px solid black;
+}
+
+.cardi{
+    margin-top: 20px;
+    margin-left: 30px;
+
+}
+
+.cardi2{
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 900px;
+}
+
+.cardi3{
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 450px;
+}
+
+.btne{
+width: 180px;
+    background-color: rgb(126, 137, 236);
+    margin-left: 30px;
+    margin-right: 10px;
+    color: #0e0d0d;
+    letter-spacing: 3px;
+    position: relative;
+    border: 3px solid #03cc57;
+    overflow: hidden;
+    z-index: 1;
+}
+.btne::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 200%;
+    left: 0;
+    top: -200%;
+    background-color: #03cc57;
+    border-radius: 50%;
+    transition: all 0.6s ease-in;
+    z-index: -1;
+}
+.btne:hover::before{
+    top: 0;
+    border-radius: 0%;
+}

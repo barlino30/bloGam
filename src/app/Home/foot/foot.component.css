@@ -1,0 +1,21 @@
+
+.p-4{
+    bottom: 0;
+    position:static;
+    text-align: center;
+    
+    width: 100%;
+    height: 200px;
+    color: #fff;
+    background-image: linear-gradient(45deg,rgb(146, 246, 158), rgb(117, 219, 219), rgb(83, 161, 239), rgb(70, 65, 65));
+    background-size: 400% 400%;
+    animation: cambiar 20s ease-in-out infinite;
+}
+
+
+
+@keyframes cambiar{
+    0%{background-position: 0 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0 50%;}
+}

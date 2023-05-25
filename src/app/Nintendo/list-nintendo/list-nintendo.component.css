@@ -1,0 +1,28 @@
+.list-group {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h1{
+    width: 500px;
+    border-radius: 6px;
+    font-size: 30px;
+    letter-spacing: 3px;
+    padding: 0 15px;
+    border: 2px solid #3535b7;
+    background: transparent;
+    color: #020202;
+}
+h2{
+   position:absolute;
+   margin-left: 100px;
+   width: 1350px;
+    border-radius: 6px;
+    font-size: 30px;
+    letter-spacing: 3px;
+    padding: 0 15px;
+    border: 2px solid #03cc57;
+    background: transparent;
+    color: #020202; 
+}
